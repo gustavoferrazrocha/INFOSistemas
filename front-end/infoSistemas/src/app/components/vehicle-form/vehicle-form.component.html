@@ -1,0 +1,25 @@
+<form >
+  <mat-form-field appearance="legacy">
+    <input [ngModelOptions]="{standalone: true}" [(ngModel)]="licensePlate" matInput placeholder="Placa">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <input [ngModelOptions]="{standalone: true}" [(ngModel)]="chassi" matInput placeholder="Chassi">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <input [ngModelOptions]="{standalone: true}" [(ngModel)]="document" matInput placeholder="Documento">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <input [ngModelOptions]="{standalone: true}" [(ngModel)]="model" matInput placeholder="Modelo">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <input [ngModelOptions]="{standalone: true}" [(ngModel)]="brand" matInput placeholder="Marca">
+  </mat-form-field>
+  <mat-form-field appearance="legacy">
+    <input [ngModelOptions]="{standalone: true}" [(ngModel)]="year" matInput placeholder="Ano">
+  </mat-form-field>
+</form>
+<mat-card-actions>
+  <button (click)='cancelAction()' mat-raised-button color="warn">CANCELAR</button>
+  <button (click)='sendVehicleDataToPage()' mat-raised-button color="primary">FINALIZADO</button>
+</mat-card-actions>
+

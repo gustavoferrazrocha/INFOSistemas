@@ -1,0 +1,11 @@
+mat-form-field {
+  padding: 1rem;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+mat-card-actions.mat-card-actions {
+  display: flex;
+  justify-content: space-evenly;
+}

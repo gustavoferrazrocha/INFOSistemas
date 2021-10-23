@@ -1,0 +1,19 @@
+<mat-card *ngFor="let vehicle of vehicles" class="mat-card">
+  <mat-card-title-group>
+    <mat-card-title>Ferrari</mat-card-title>
+    <mat-card-subtitle>{{vehicle.year}}</mat-card-subtitle>
+    <img mat-card-md-image src="../../../assets/ferrari.jpg" >
+  </mat-card-title-group>
+  <mat-card-content>
+    <h3>PLACA: <span>{{vehicle.licensePlate}}</span></h3>
+    <h3>MODELO: <span>{{vehicle.model}}</span></h3>
+    <h3>MARCA: <span>{{vehicle.brand}}</span></h3>
+    <h3>CHASSI: <span>{{vehicle.chassi}}</span></h3>
+    <h3>DOCUMENTO: <span>{{vehicle.document}}</span></h3>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button (click)='goUpdateForm()' mat-raised-button color="primary">EDITAR</button>
+    <button (click)='deleteVehicle(vehicle._id)' mat-raised-button color="warn">DELETAR</button>
+  </mat-card-actions>
+</mat-card>

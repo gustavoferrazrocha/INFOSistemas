@@ -1,0 +1,7 @@
+h1 {
+  font-size: 1rem;
+}
+mat-card-actions.mat-card-actions {
+  display: flex;
+  justify-content: space-evenly;
+}

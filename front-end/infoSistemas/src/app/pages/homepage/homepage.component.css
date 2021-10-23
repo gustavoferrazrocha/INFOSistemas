@@ -1,0 +1,9 @@
+mat-toolbar.mat-toolbar.mat-toolbar-single-row {
+  background-color: #252525;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+mat-card-actions.mat-card-actions {
+  margin-bottom: unset;
+}

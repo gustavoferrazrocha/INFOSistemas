@@ -1,0 +1,8 @@
+mat-toolbar.mat-toolbar.mat-toolbar-single-row {
+  background-color: #252525;
+  color: white;
+}
+mat-form-field {
+  display: flex;
+  justify-content: center;
+}
